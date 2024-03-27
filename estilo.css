@@ -1,0 +1,78 @@
+/* Estilo para el body */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Estilo para la cabecera */
+.cabecera {
+    background-color: #673ab7;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.cabecera img {
+    position: absolute;
+    left: 10px;
+}
+
+.cabecera h1, .cabecera .jornada {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+/* Estilo para el div Equipo */
+.equipo {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para Fundación */
+.fundacion {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para Nombre del equipo */
+.nombre-equipo {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para Imagen del equipo */
+.imagen-equipo {
+    height: 120px;
+}
+
+/* Estilo para Estadio */
+.estadio {
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+/* Estilo para Competiciones */
+.competiciones img {
+    height: 50px;
+    margin: 10px;
+}
+
+/* Estilo para el botón "Equipo" */
+.boton-equipo {
+    background-color: #673ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-equipo:hover {
+    background-color: #5a2d9d;
+}
